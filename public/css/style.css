@@ -9925,5 +9925,185 @@ header .image {
   margin-left: 38%;
   z-index: 2;
 }
+header .borderbottom1 {
+  width: 100%;
+  height: 10px;
+  background-image: url(../../public/images/bottom_decoration_img.png);
+  background-repeat: repeat-x;
+  background-color: #545456;
+}
+
+#chef {
+  background-color: black;
+  padding: 50px;
+}
+#chef h1 .meet {
+  font-family: "Courgette", cursive;
+  color: red;
+  font-size: 1.5em;
+}
+#chef h1 .our {
+  font-family: "Courgette", cursive;
+  color: white;
+}
+#chef img {
+  display: flex;
+}
+#chef .chefs div {
+  display: flex;
+  flex-direction: column;
+}
+#chef .chefs img {
+  margin: 0 auto;
+}
+#chef .chefs p {
+  text-align: center;
+}
+
+#background {
+  background-image: url(../../public/images/main_bg.jpg);
+  padding: 100px;
+}
+#background .conti {
+  position: relative;
+  background-color: white;
+}
+#background .conti #box {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#background .conti #box1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#background .conti #box2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#background .conti #box3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#background .conti #padding {
+  padding: 100px;
+}
+#background .conti #padding #story img {
+  display: flex;
+}
+#background .conti #padding #story h1 {
+  font-family: "Courgette", cursive;
+}
+#background .conti #padding #story h1 span {
+  color: red;
+}
+#background .conti #padding #story #para {
+  margin-top: 25px;
+}
+#background .conti #padding2 #menu h1 {
+  font-family: "Courgette", cursive;
+}
+#background .conti #padding2 #menu h1 span {
+  color: red;
+}
+
+#client {
+  background-image: url(../../public/images/testimonials_background.jpg);
+}
+#client h1 {
+  font-family: "Courgette", cursive;
+}
+#client h1 span {
+  color: red;
+}
+#client img {
+  display: flex;
+}
+#client .container .row {
+  margin-top: 10%;
+}
+#client .container .row #testimonial {
+  margin: 4px;
+}
+#client .container .row #border {
+  margin: 4px;
+  width: 20em;
+}
+#client .container .row #testimonial2 {
+  margin: 4px;
+}
+
+#contact h1 {
+  font-family: "Courgette", cursive;
+}
+#contact h1 span {
+  color: red;
+}
+#contact #rouge {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 400px;
+}
+#contact #rouge ul li {
+  list-style: none;
+}
+#contact #rouge ul p {
+  margin-right: 24px;
+}
+
+hr {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#footer {
+  background-image: url(../../public/images/footer_background.jpg);
+}
+#footer .borderbottom2 {
+  width: 100%;
+  height: 10px;
+  background-image: url(../../public/images/footer_bottom_decoration_img.png);
+  background-repeat: repeat-x;
+  background-color: rgba(61, 52, 44, 0);
+}
+#footer .row {
+  margin-left: 30px;
+}
+#footer .row #about .row {
+  margin-left: -4px;
+}
+#footer .row #about .row #icon {
+  padding-right: 50px;
+}
+#footer .row #instagram .row {
+  margin-top: 20px;
+  margin-left: -10px;
+}
+#footer .row #instagram .row .insta {
+  padding: 5px;
+}
+#footer .row #instagram #insta2 {
+  margin-top: -2px;
+}
+#footer .row #tags {
+  margin-right: -80px;
+}
+#footer .row #tags .row #tag {
+  top: 400px;
+  display: flex;
+  margin-left: 38%;
+  margin-top: 9%;
+  padding: 5px;
+}
+#footer .row #tags .row #tag #popular {
+  padding: 50px;
+}
+#footer div h1 {
+  visibility: hidden;
+}
 
 /*# sourceMappingURL=style.css.map */
